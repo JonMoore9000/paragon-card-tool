@@ -7,7 +7,7 @@
 
 
 var baseUrl = 'https://developer-paragon.epicgames.com/v1/cards/complete';
-var local = 'http://localhost:8080/cards';
+var local = 'https://limitless-river-35959.herokuapp.com/cards';
 
 function getData(callback) {
 	var query = {
