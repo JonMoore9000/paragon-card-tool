@@ -7,7 +7,7 @@
 
 
 var baseUrl = 'https://developer-paragon.epicgames.com/v1/cards/complete';
-//var local = 'https://git.heroku.com/fathomless-depths-45727.git/cards';
+var local = 'http://localhost:8080/cards';
 
 function getData(callback) {
 	var query = {
