@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="grid.css">
+	<link rel="stylesheet" type="text/css" href="loader.css">
+	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div class="container">
+
+	<!-- HOME PAGE -->
+
+		<div class="row">
+			<div class="col-12">
+				<div class="homePage">
+					<div class="homeSection">
+						<h3 class="title">Paragon Library</h3>
+						<p class="description">Welcome. Here you will find information on the card system in Epic Games' new MOBA Paragon. Wether you are new to the game, a seasoned verteran or just need to read up on a card you want to implement in your deck, you can can find all the card info here. This is still in developement, any feedback is welcome.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="buttonRow">
+				<button class="col-3 menuBtn js-button3">Home</button>
+				<button class="col-3 menuBtn js-button">Library</button>
+				<button class="col-3 menuBtn js-button1">How It Works</button>
+				<button class="col-3 menuBtn js-button2">Resources</button>
+			</div>
+		</div>
+
+		<div class="row created">
+			<p>Created by <a href="https://twitter.com/discopanda9000">JontheNerd</a></p>
+		</div>
+
+
+
+		<!-- LIBRARY PAGE -->
+
+		<div class="cardsPage invisible">
+			<div class="cardPageInfo">
+				<p>Here you will see all the cards available in Paragon. Hovering over a card will reveal that card's stat and or description.</p>
+			</div>
+			<div class="js-results invisible" onload="loader()">
+				<div class="loader"></div>
+			</div>
+		</div>
+
+		<!-- HOW IT WORKS PAGE -->
+
+		<div class="howItWorksPage invisible">
+
+
+		<p class="about">Here we will break down all of the elements of how the card system works. We will look at how upgrade and equipement cards differ, card crafting, card points (CP) and more. This way you will get a good understanding of how the card system works and how to poroperly utilize your decks.</p>
+
+		<h3 class="hiwHeaders">Card Types</h3>
+
+		<p class="float1">To begin you have two types of cards: Upgrade cards and Equipement cards. Equipement cards act as items you can equipe to your character boosting your stats. Upgrade cards serve as a boost for your equipement card boosting the overall effect of the equipement card. </p>
+
+		<div>
+			<img class="cardTypeImages cType" src="images/Divine_Shield_card.png">
+			<img class="cardTypeImages cType1" src="images/upgrade.png">
+		</div>
+
+		<p class="float1">So we have two cards above. Divine Shield is an equipement card that has three slots for upgrade cards. Major Kinetic is an upgrade card that can be slotted into an equipement card that further enhances the effect of an equipement card.</p>
+
+		<h3 class="hiwHeaders">Card Crafting</h3>
+
+		<p>Card Crafting is a feature that allows players to destroy cards in return for elements to build a card of their choosing. This is a good way to craft the card you need to complete your deck, collect all the cards etc. Each affinity will yield a different type of element when you destroy the card. Here are the different affinities and the elements they yield:
+
+		<img class="CCimage" src="images/cardphoto22.jpg"> 
+
+		<p>Let's break this image down. Inside the <span class="red">red</span> box you have the different affinities that associate themselves to certain characters and cards. In the <span class="blue">blue</span> box you have the different types of elements you recieve from breaking down cards. And finally in the <span class="yellow">yellow</span> box you see a card that is slightly vaded meaning that you do not own that card yet. This is a good place to start in determining what you need ot build and what cards to break down to get it.</p>
+
+		<table>
+			<tr>
+				<th>Affinity</th>
+				<th>Element</th>
+			</tr>
+			<tr>
+				<td>Order</td>
+				<td>Topaz</td>
+			</tr>
+			<tr>
+				<td>Intellect</td>
+				<td>Matrix</td>
+			</tr>
+			<tr>
+				<td>Corruption</td>
+				<td>Cursed Soul</td>
+			</tr>
+			<tr>
+				<td>Fury</td>
+				<td>Shrapnel</td>
+			</tr>
+			<tr>
+				<td>Growth</td>
+				<td>Algae</td>
+			</tr>
+			<tr>
+				<td>Universal</td>
+				<td>Metal</td>
+			</tr>
+		
+		</table>
+
+		Destroying rarer cards will yield you more of that certain element. Be careful, though, as you do not want to destroy a card you have only one of.
+		</p>
+
+		<h3 class="hiwHeaders">Card Points</h3>
+
+		<p>Card Points or CP is the in game currency you use to equipe more cards and slot upgrade cards into your equipement cards. You gain CP from landing killing blows on enemy minions or by getting enemy hero kills. You recieve one CP at a time at a pretty decent pace. </p>
+
+		<img class="inGame" src="images/inGame2.jpg">
+
+		<p>Let's break down the image above. In game you have your Card Point counter (in the <span class="blue">blue</span> box). This lets you know how many card points you have accrued over the duration of the match. In the <span class="red">red</span> box you have the amount of card points that you have not spent yet. You will need to really keep an eye on your unspent card points. You do not want to be running around with to many card points when you could be making your hero stronger.</p>
+
+		</div>
+
+		<!-- RESOURCES PAGE -->
+
+
+		<div class="resourcesPage invisible">
+			
+			<p class="resourceD">Here you can find additional resources to help you better understand all there is to know about the cards in Paragon. Enjoy.</p>
+
+			<div class="videos">
+				<iframe width="920" height="450" src="https://www.youtube.com/embed/wwlUjXLkGaY" frameborder="0" allowfullscreen></iframe> 
+				<iframe width="920" height="450" src="https://www.youtube.com/embed/DP134KryWBg" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

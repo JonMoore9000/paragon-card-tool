@@ -1,0 +1,254 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(images/card-bck.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	/*background-color: black;*/
+}
+
+.container {
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+}
+
+.homeSection {
+	background-color: rgba(0, 0, 0, .7);
+	margin-top: 80px;
+	text-align: center;
+	padding: 20px;
+}
+
+.title {
+	color: white;
+	font-family: 'Questrial', sans-serif;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+.description { 
+	color: white;
+	font-family: 'Questrial', sans-serif;
+	font-size: 22px;
+}
+
+.buttonRow {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.menuBtn {
+	background-color: rgba(0, 0, 0, .5);
+	color: white;
+	border: 1px solid white;
+	text-align: center;
+}
+
+.menuBtn:hover {
+	color: black;
+	background-color: white;
+}
+
+button {
+	height: 50px;
+	font-size: 18px;
+	font-family: 'Questrial', sans-serif;
+}
+
+.created {
+	text-align: left;
+	color: white;
+	font-size: 18px;
+	font-family: 'Questrial', sans-serif;
+}
+
+a {
+	text-decoration: underline;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #dbbd68;
+}
+
+.cardsPage {
+	width: 1120px;
+	margin: 0 auto;
+	/*text-align: center;*/
+}
+
+.cardPageInfo {
+	font-size: 20px;
+	font-family: 'Questrial', sans-serif;
+	color: white;
+	width: 900px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .7);
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.js-results {
+	margin: 20px;
+}
+
+.card-name {
+	font-size: 16px;
+	font-family: 'Questrial', sans-serif;
+}
+
+.card-type {
+	font-size: 14px;
+	font-family: 'Questrial', sans-serif;
+} 
+
+.dName {
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.dStat {
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.card-image {
+	width: 170px;
+	height: 170px;
+}
+
+.each-card {
+	display: inline-block;
+	background-color: black;
+	color: white;
+	margin: 7px;
+	padding: 10px;
+	border: 2px solid #dbbd68;
+}
+
+.each-card:hover {
+	border: 2px solid white;
+}
+
+.info {
+	visibility: hidden;
+    width: 300px;
+    height: auto;
+    background-color: #dbbd68;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    font-family: 'Questrial', sans-serif;
+    position: absolute;
+    z-index: 1;
+    border: 2px solid white;
+}
+
+.each-card:hover .info {
+	visibility: visible;
+}
+
+.howItWorksPage {
+	color: white;
+	font-family: 'Questrial', sans-serif;
+	font-size: 20px;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, .7);
+	height: auto;
+	text-align: center;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.hiwHeaders {
+	width: 100%;
+	background-color: #dbbd68;
+	color: black;
+	font-size: 27px;
+	padding: 5px;
+}
+
+.cardTypeImages {
+	height: 350px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.CCimage {
+	width: 800px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.red {
+	color: red;
+	font-weight: bold;
+}
+
+.blue {
+	color: blue;
+	font-weight: bold;
+}
+
+.yellow {
+	color: yellow;
+	font-weight: bold;
+}
+
+table {
+	border-collapse: collapse;
+	margin: auto;
+	margin-bottom: 20px;
+	width: 500px;
+}
+
+th {
+	background-color: #dbbd68;
+	color: black;
+	font-size: 28px;
+}
+
+td, th {
+	border: 1px solid white;
+}
+
+tr {
+	font-size: 24px;
+}
+
+.inGame {
+	width: 800px;
+}
+
+.resourcesPage {
+	width: 960px;
+	background-color: rgba(0, 0, 0, .7);
+	padding: 20px;
+	color: white;
+	margin: 0 auto;
+}
+
+.resourceD {
+	font-size: 24px;
+}
+
+iframe {
+	border: 2px solid #dbbd68;
+}
+
+iframe:hover {
+	border: 2px solid white;
+}
+
+.invisible {
+	display: none;
+}
+
+#nothing {
+	display: none;
+}
